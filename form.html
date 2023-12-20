@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alt School Application Form</title>
+</head>
+<body>
+    <figure>
+        <img src="Image/Alt School Favicon.png" alt="Alt School Logo" width="13%" height="13%">
+    </figure>
+    <header>
+        <nav id="global-navigation">
+            <a href="index.html" target="_blank">Back to my Homepage</a>
+        </nav>
+    </header>
+    <div>
+        <h1>Application Form</h1>
+        <p>Fill in your details</p>
+    </div>
+
+<form action="/signup" method="POST" enctype="multipart/form-data">
+        <label>First Name</label>
+        <input type="text" name="first_name" placeholder="Enter first name" required>
+
+<label>Last Name</label>
+<input type="text" name="last_name" placeholder="Enter last name" required>
+    <p>
+<label>Gender</label>
+<select>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Transgender</option>
+</select>
+        <label>Date Of Birth</label>
+        <input type="date"required></p>
+            <p>
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="Enter email address" minlength="15" required>
+                <label>Password</label>
+                <input type="password" id="password" name="password" minlength="5" maxlength="15" required>
+</p>
+<p>
+    <label>Country</label>
+    <select>
+        <option>Nigeria</option>
+        <option>Canada</option>
+        <option>Ghana</option>
+        <option>Kenya</option>
+        <option>South Africa</option>
+        <option>United Kingdom</option>
+        <option>United States of America</option>
+    </select>
+    <label>State/City of Residence</label>
+    <input type="text" placeholder="Enter your state of residence" required>
+</p>
+<p>
+    <label>Employment Status</label>
+    <select>
+        <option>Employed</option>
+        <option>Self-Employed</option>
+        <option>Unemployed</option>
+         </select>
+<label>Phone Number</label>
+<select>
+    <option>+234</option>
+    <option>+1</option>
+    <option>+233</option>
+    <option>+27</option>
+    <option>+27</option>
+    <option>+44</option>
+    <option>+1</option>
+</select>
+<input type="number" placeholder="Phone number" required>
+</p>
+<p>
+    <label>Education Level</label>
+<select>
+    <option value="disabled selected">Select level of education</option>
+    <option>Secondary School</option>
+    <option>National Diploma</option>
+    <option>Bachelor's Degree</option>
+    <option>Master's Degree</option>
+    <option>Ph.D Program</option>
+</select>
+    <label>Choose School</label>
+    <select>
+        <option>School of Engineering</option>
+        <option>School of Data</option>
+        <option>School of Product</option>
+        <option>School of Business</option>
+        <option>School of Creative Economy</option>
+         </select>
+         </p>
+         <p>
+    <label>Choose Course of Study</label>
+    <select>
+        <option>Employed</option>
+        <option>Self-Employed</option>
+        <option>Unemployed</option>
+         </select>
+    <label>Scholarship/Discount Code (optional)</label>
+    <input type="text" name="text" placeholder="Scholarship or Student ID or Discount Code">
+</p>
+<p>
+    
+    <label>How did you hear about us?</label>
+    <select>
+        <option>Twitter</option>
+        <option>Facebook</option>
+        <option>LinkedIn</option>
+        <option>Snapchat</option>
+        <option>WhatsApp</option>
+         </select>
+         </p>
+         <p>
+    <label>
+        <input type="checkbox" value="terms">
+        By clicking continue, I agree to <a href="/terms">Terms of Use</a> and acknowledge that I have read the <a href="/privacy">Privacy Policy.</a>
+    </label>
+</p>
+<p>
+    <button>Proceed</button>
+</p>
+<footer>Already have an account? <a href=/signin>Sign In</a></footer>
+    </form> 
+    
+    
+    <aside>
+        <h4><i>About the developer</i></h4>
+        <p>My name is Olumide Lawal and I am a Frontend Developer. <a href=index.html target="_blank">Read more.</a></p>
+    </aside>
+</body>
+</html>
